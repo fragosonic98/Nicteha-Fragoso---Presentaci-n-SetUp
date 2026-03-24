@@ -24,6 +24,9 @@ Objetivo: Practicar comandos fundamentales de Linux y Git, desde la clonación d
 
 <img width="942" height="446" alt="25 nano readme" src="https://github.com/user-attachments/assets/56d9097c-50ef-4f2f-8c4e-a3f9ddb789f4" />
 
+<img width="942" height="447" alt="26 update readme" src="https://github.com/user-attachments/assets/21c0b613-7bb0-4820-bab4-edc615e9a196" />
+
+
 
 #Paso 6 — Guarda el cambio: Después de editar el README.md, ejecuté git status para ver los cambios pendientes. Luego, preparé los cambios para el commit con git add README.md y los confirmé localmente con un mensaje descriptivo: git commit -m "Updated README.md with username and favorite color". En el proceso, también utilicé git rm hello.txt para eliminar el archivo que había creado por error y git add . para incluir esa eliminación en el commit final.
 
@@ -46,7 +49,13 @@ Error al cambiar de directorio (cd con "too many arguments"):
 
 Problema: Intenté navegar a una ruta que contenía espacios en los nombres de las carpetas usando cd D:\Users\bonip\Videos\Grabaciones de pantalla\CSU - Comandos github. El terminal interpretó el espacio después de "CSU" como un argumento adicional, lanzando el error bash: cd: too many arguments.
 
+<img width="931" height="447" alt="10 cd directory" src="https://github.com/user-attachments/assets/abcf6148-9892-492f-8012-84646522dd18" />
+
+
 Solución: En lugar de escribir la ruta manualmente, abrí la carpeta de destino en el explorador de archivos de Windows, hice clic derecho y seleccioné "Open Git Bash here". Esto abrió la terminal directamente en la ubicación correcta, evitando el problema de los espacios.
+
+<img width="358" height="447" alt="7open git bash here" src="https://github.com/user-attachments/assets/a8424890-8b0b-4c89-8583-69e8a6ae9cdb" />
+
 
 Error al crear la rama (git checkout -B nic/hello /usa tu propio nombre con error "outside repository"):
 
@@ -59,6 +68,9 @@ Error de Interpretación de la Instrucción (Archivo vs. README):
 Problema: Al principio, malinterpreté la tarea. Creé un nuevo archivo hello.txt con touch y lo edité con nano, en lugar de modificar el README.md que ya existía.
 
 Solución: Me di cuenta del error al leer las instrucciones nuevamente. Corregí la situación editando el README.md con nano README.md para agregar la información correcta. Luego, para mantener el historial limpio, usé git rm hello.txt para eliminar el archivo no deseado y, finalmente, hice un nuevo commit que incluía tanto la modificación al README.md como la eliminación de hello.txt.
+
+<img width="937" height="296" alt="28 git rm" src="https://github.com/user-attachments/assets/e52bb637-64b7-4776-b312-f183845cbb35" />
+
 
 ## Resultado Final (Git Log)
 Al finalizar, ejecuté git log --oneline para ver un resumen del historial de commits en mi rama. El resultado mostró los dos commits que realicé, confirmando el proceso:
