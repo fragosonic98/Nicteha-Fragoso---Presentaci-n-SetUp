@@ -39,6 +39,16 @@ Utilizar técnicas de análisis de datos para identificar patrones de comportami
 
 ---
 
+### 04 · Username y color favorito
+
+* fragosonic98
+* Morado
+
+---
+
 <div align="right">
   <sub>CIDIUM · Bootcamp Ciberseguridad · 2025 &nbsp;|&nbsp; ES · EN</sub>
 </div>
+---
+
+
