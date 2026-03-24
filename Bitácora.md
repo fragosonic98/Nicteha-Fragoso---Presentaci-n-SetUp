@@ -6,15 +6,29 @@ Objetivo: Practicar comandos fundamentales de Linux y Git, desde la clonación d
 ## Ruta de Arranque (7 Pasos)
 #Paso 1 — Ubícate: Abrí Git Bash y ejecuté pwd para confirmar mi ubicación actual. Luego usé ls -lah para listar todos los archivos en el directorio, incluyendo los ocultos, y ver los permisos de los archivos. Esto me dio un punto de partida claro.
 
+<img width="941" height="443" alt="23 pwd ls -lah" src="https://github.com/user-attachments/assets/609791bc-2bb4-42be-ab27-aa7275f57d4e" />
+
+
 #Paso 2 — Clona el proyecto: Navegué a la carpeta donde quería guardar el proyecto localmente y ejecuté el comando git clone git@github.com:fragosonic98/Nicteha-Fragoso---Presentaci-n-SetUp.git. Este comando descargó una copia completa del repositorio remoto a mi equipo.
 
+<img width="718" height="447" alt="git clone succeed" src="https://github.com/user-attachments/assets/8d22a3f1-67db-44b7-a2d7-8332cb8a5292" />
+
+
 #Paso 3 — Entra a la carpeta: Usé cd Nicteha-Fragoso---Presentaci-n-SetUp/ para ingresar al directorio que acababa de clonar. Verifiqué que estaba dentro con pwd y listé su contenido con ls -lah.
+
+<img width="931" height="447" alt="10 cd directory" src="https://github.com/user-attachments/assets/895a8709-a16b-49ca-9d28-ad179874d2c4" />
 
 #Paso 4 — Lee o crea el README: El repositorio ya tenía un archivo README.md. Lo revisé con cat README.md para ver su contenido. Mi objetivo era modificarlo, no crearlo de nuevo.
 
 #Paso 5 — Haz un cambio pequeño y documentado: Inicialmente, cometí un error de interpretación. Pensé que debía crear un archivo nuevo (hello.txt) con mi usuario y color favorito. Sin embargo, después de leer mejor las instrucciones, entendí que la modificación debía hacerse directamente en el README.md. Corregí mi error y abrí el archivo README.md con nano README.md para agregar la información solicitada.
 
+<img width="942" height="446" alt="25 nano readme" src="https://github.com/user-attachments/assets/56d9097c-50ef-4f2f-8c4e-a3f9ddb789f4" />
+
+
 #Paso 6 — Guarda el cambio: Después de editar el README.md, ejecuté git status para ver los cambios pendientes. Luego, preparé los cambios para el commit con git add README.md y los confirmé localmente con un mensaje descriptivo: git commit -m "Updated README.md with username and favorite color". En el proceso, también utilicé git rm hello.txt para eliminar el archivo que había creado por error y git add . para incluir esa eliminación en el commit final.
+
+<img width="936" height="447" alt="30 git add comm and push" src="https://github.com/user-attachments/assets/061af0ec-2c65-459d-9ac8-3053b132dd71" />
+
 
 #Paso 7 — Sube el cambio: Finalmente, subí los cambios a la rama remota con git push origin nic/hello. Luego verifiqué en la página de GitHub que el commit y los cambios en el README.md eran visibles en mi rama nic/hello.
 
